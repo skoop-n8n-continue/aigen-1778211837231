@@ -1,0 +1,52 @@
+/* Skoop Application Styles */
+
+/* Base reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#app-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#app-container.loaded {
+    opacity: 1;
+}
+
+.content-wrapper {
+    max-width: 800px;
+}
+
+.headline {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+
+.subtext {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    opacity: 0.9;
+}
+
+/* responsive canvas adjustments would go here if needed */

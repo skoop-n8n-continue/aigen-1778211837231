@@ -1,0 +1,35 @@
+{
+  "app_id": "aigen-1778211837231",
+  "document_version": 1,
+  "sections": {
+    "app_settings": {
+      "background_color": {
+        "type": "color",
+        "label": "Background Color",
+        "value": "#10181f"
+      },
+      "primary_color": {
+        "type": "color",
+        "label": "Primary Color",
+        "value": "#00b7af"
+      },
+      "text_color": {
+        "type": "color",
+        "label": "Text Color",
+        "value": "#ffffff"
+      }
+    },
+    "content": {
+      "headline": {
+        "type": "text",
+        "label": "Headline",
+        "value": "Hello World"
+      },
+      "subtext": {
+        "type": "textarea",
+        "label": "Subtext",
+        "value": "Welcome to your new Skoop application. This is a simple Hello World example demonstrating data binding and dynamic content."
+      }
+    }
+  }
+}
