@@ -49,4 +49,11 @@ body {
     opacity: 0.9;
 }
 
+.clock {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
 /* responsive canvas adjustments would go here if needed */

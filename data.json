@@ -17,6 +17,11 @@
         "type": "color",
         "label": "Text Color",
         "value": "#ffffff"
+      },
+      "show_clock": {
+        "type": "boolean",
+        "label": "Show Clock",
+        "value": true
       }
     },
     "content": {

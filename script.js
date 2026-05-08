@@ -40,6 +40,10 @@ async function init() {
         subtextEl.innerHTML = content.subtext.value.replace(/\n/g, '<br>');
     }
 
+    // Initialize clock
+    setInterval(updateClock, 1000);
+    updateClock();
+
     // Reveal the app
     const appContainer = document.getElementById('app-container');
     if (appContainer) {
@@ -49,3 +53,11 @@ async function init() {
 
 // Start the app
 document.addEventListener('DOMContentLoaded', init);
+
+function updateClock() {
+    const clockEl = document.querySelector('.clock');
+    if (clockEl) {
+        const now = new Date();
+        clockEl.textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    }
+}
