@@ -6,12 +6,12 @@
       "background_color": {
         "type": "color",
         "label": "Background Color",
-        "value": "#2d0a0a"
+        "value": "#0a2d0f"
       },
       "primary_color": {
         "type": "color",
         "label": "Primary Color",
-        "value": "#ff4d4d"
+        "value": "#4dff66"
       },
       "text_color": {
         "type": "color",
